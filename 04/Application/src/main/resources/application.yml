@@ -1,0 +1,12 @@
+server:
+  port: 2222
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+age: 19
+name: xiegudong
+personinfo:
+  name: xiegudong45
+  age: 3

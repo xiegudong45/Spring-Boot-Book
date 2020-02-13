@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/themeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <span sec:authentication="name"><strong></strong></span>
+    <span sec:authorize="hasRole('ROLE_ADMIN')">管理员</span>
+    <span sec:authorize="hasRole('ROLE_USER')">普通用户</span>
+</body>
+</html>
